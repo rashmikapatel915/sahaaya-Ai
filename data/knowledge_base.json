@@ -1,0 +1,685 @@
+    
+{
+  "schemes": [
+    {
+      "title": "Telangana Rythu Bharosa",
+      "aliases": [
+        "Rythu Bandhu",
+        "Rythu Bharosa",
+        "రైతు బంధు",
+        "రైతుబంధు",
+        "రైతు భరోసా",
+        "రైతు బంధు పథకం",
+        "రైతు భరోసా పథకం",
+        "రైతులకు పెట్టుబడి సాయం"
+      ],
+      "keywords": "Telangana farmer agriculture investment support రైతు రైతుబంధు రైతు భరోసా రైతు బంధు రైతులకు పెట్టుబడి సహాయం किसान किसान सहायता விவசாயி",
+      "summary": "Telangana Rythu Bharosa is an agricultural investment support programme of the Telangana government.",
+      "details": "It is intended to provide investment support to eligible farmers. Current eligibility, assistance amount, land and cultivation conditions, payment dates and application procedures must be verified through the latest Telangana government orders and official announcements.",
+      "source": "https://www.telangana.gov.in/",
+      "localized": {
+        "Telugu": "రైతు భరోసా తెలంగాణ ప్రభుత్వ వ్యవసాయ పెట్టుబడి సహాయ కార్యక్రమం. రైతులు వ్యవసాయ అవసరాల కోసం పెట్టుబడి సహాయం పొందేందుకు ఈ కార్యక్రమం రూపొందించబడింది. ప్రస్తుత అర్హత, సహాయం మొత్తం, భూమి లేదా సాగు నిబంధనలు మరియు చెల్లింపు తేదీలు తాజా ప్రభుత్వ ఉత్తర్వులపై ఆధారపడి ఉంటాయి. అధికారిక ప్రకటనల ద్వారా వివరాలను నిర్ధారించుకోండి.",
+        "Hindi": "रायथु भरोसा तेलंगाना सरकार की कृषि निवेश सहायता योजना है। इसका उद्देश्य पात्र किसानों को खेती के लिए निवेश सहायता देना है। वर्तमान पात्रता, सहायता राशि, भूमि या खेती की शर्तें और भुगतान की तारीखें नवीनतम सरकारी आदेशों पर निर्भर करती हैं। आधिकारिक घोषणाओं से जानकारी की पुष्टि करें।",
+        "Tamil": "ரைது பரோசா தெலங்கானா அரசின் விவசாய முதலீட்டு உதவித் திட்டமாகும். தகுதியுள்ள விவசாயிகளுக்கு விவசாயத்திற்கான முதலீட்டு உதவி வழங்குவது இதன் நோக்கமாகும். தற்போதைய தகுதி, உதவித் தொகை, நிலம் அல்லது சாகுபடி நிபந்தனைகள் மற்றும் பணம் வழங்கும் தேதிகளை அதிகாரப்பூர்வ அறிவிப்புகளில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "PM-KISAN Samman Nidhi",
+      "aliases": [
+        "PM Kisan",
+        "PM-KISAN",
+        "పీఎం కిసాన్",
+        "పీఎంకిసాన్",
+        "पीएम किसान",
+        "பிஎம் கிசான்"
+      ],
+      "keywords": "farmer income support central government किसान किसान सहायता రైతు ఆదాయం వ్యవసాయం",
+      "summary": "PM-KISAN is a Central Government income support scheme for eligible landholding farmer families.",
+      "details": "Eligible farmer families receive financial assistance under the scheme subject to government eligibility rules and exclusions. Registration, e-KYC, land records and beneficiary status should be checked through the official portal.",
+      "source": "https://pmkisan.gov.in/",
+      "localized": {
+        "Telugu": "PM-KISAN అనేది అర్హత కలిగిన భూమి కలిగిన రైతు కుటుంబాలకు ఆదాయ సహాయం అందించే కేంద్ర ప్రభుత్వ పథకం. అర్హతకు కొన్ని నియమాలు మరియు మినహాయింపులు ఉంటాయి. నమోదు, e-KYC మరియు లబ్ధిదారుల స్థితిని అధికారిక వెబ్‌సైట్‌లో తనిఖీ చేయవచ్చు.",
+        "Hindi": "PM-KISAN पात्र भूमिधारक किसान परिवारों को आय सहायता देने वाली केंद्र सरकार की योजना है। इसमें कुछ पात्रता नियम और अपवाद लागू होते हैं। पंजीकरण, e-KYC और लाभार्थी स्थिति आधिकारिक वेबसाइट पर जांची जा सकती है।",
+        "Tamil": "PM-KISAN என்பது தகுதியுள்ள நிலம் வைத்திருக்கும் விவசாயக் குடும்பங்களுக்கு வருமான ஆதரவு வழங்கும் மத்திய அரசுத் திட்டமாகும். சில தகுதி விதிமுறைகளும் விலக்குகளும் உள்ளன. பதிவு, e-KYC மற்றும் பயனாளர் நிலையை அதிகாரப்பூர்வ இணையதளத்தில் சரிபார்க்கலாம்."
+      }
+    },
+    {
+      "title": "Pradhan Mantri Fasal Bima Yojana",
+      "aliases": [
+        "PMFBY",
+        "Crop Insurance",
+        "పంటల బీమా",
+        "పంట బీమా",
+        "फसल बीमा",
+        "பயிர் காப்பீடு"
+      ],
+      "keywords": "crop insurance farmer agriculture natural disaster crop damage పంట బీమా రైతు फसल बीमा பயிர் காப்பீடு",
+      "summary": "PMFBY is a crop insurance scheme that provides insurance protection to eligible farmers against specified crop losses.",
+      "details": "Coverage, notified crops, insurance premium, enrolment deadlines and claim conditions depend on the season, crop and state notification. Farmers should check current details before enrolling.",
+      "source": "https://pmfby.gov.in/",
+      "localized": {
+        "Telugu": "ప్రధానమంత్రి ఫసల్ బీమా యోజన రైతులకు పంట నష్టాలపై బీమా రక్షణ అందించే పథకం. ఏ పంటలకు బీమా వర్తిస్తుంది, నమోదు చివరి తేదీ, ప్రీమియం మరియు క్లెయిమ్ నియమాలు సీజన్ మరియు రాష్ట్ర ప్రకటనపై ఆధారపడి ఉంటాయి. అధికారిక పోర్టల్‌లో ప్రస్తుత వివరాలను తనిఖీ చేయండి.",
+        "Hindi": "प्रधानमंत्री फसल बीमा योजना किसानों को निर्धारित फसल नुकसान के विरुद्ध बीमा सुरक्षा देती है। कौन-सी फसलें शामिल हैं, आवेदन की अंतिम तारीख, प्रीमियम और दावा नियम मौसम तथा राज्य की अधिसूचना पर निर्भर करते हैं। आधिकारिक पोर्टल पर जानकारी जांचें।",
+        "Tamil": "பிரதம மந்திரி பயிர் காப்பீட்டுத் திட்டம் குறிப்பிட்ட பயிர் இழப்புகளுக்கு விவசாயிகளுக்கு காப்பீட்டு பாதுகாப்பு வழங்குகிறது. பயிர்கள், பதிவு கடைசி தேதி, பிரீமியம் மற்றும் இழப்பீட்டு விதிகள் பருவம் மற்றும் மாநில அறிவிப்பைப் பொறுத்தது."
+      }
+    },
+    {
+      "title": "Kisan Credit Card",
+      "aliases": [
+        "KCC",
+        "Kisan Credit Card Scheme",
+        "కిసాన్ క్రెడిట్ కార్డు",
+        "రైతు క్రెడిట్ కార్డు",
+        "किसान क्रेडिट कार्ड",
+        "கிசான் கிரெடிட் கார்டு"
+      ],
+      "keywords": "farmer bank loan agriculture credit किसान ऋण రైతు రుణం விவசாய கடன்",
+      "summary": "Kisan Credit Card provides eligible farmers access to credit for agricultural and allied activities.",
+      "details": "Farmers can approach participating banks to enquire about eligibility, credit limits, interest conditions, repayment and required documents.",
+      "source": "https://www.myscheme.gov.in/",
+      "localized": {
+        "Telugu": "కిసాన్ క్రెడిట్ కార్డు రైతులకు వ్యవసాయం మరియు అనుబంధ అవసరాల కోసం బ్యాంకు రుణ సదుపాయం అందిస్తుంది. అర్హత, రుణ పరిమితి, వడ్డీ మరియు అవసరమైన పత్రాల వివరాల కోసం సంబంధిత బ్యాంకును సంప్రదించండి.",
+        "Hindi": "किसान क्रेडिट कार्ड किसानों को कृषि और संबंधित गतिविधियों के लिए बैंक ऋण सुविधा देता है। पात्रता, ऋण सीमा, ब्याज और जरूरी दस्तावेजों के लिए संबंधित बैंक से संपर्क करें।",
+        "Tamil": "கிசான் கிரெடிட் கார்டு விவசாயம் மற்றும் தொடர்புடைய செயல்பாடுகளுக்கான வங்கிக் கடன் வசதியை வழங்குகிறது. தகுதி, கடன் வரம்பு, வட்டி மற்றும் தேவையான ஆவணங்களுக்கு வங்கியை அணுகவும்."
+      }
+    },
+    {
+      "title": "PM-KUSUM",
+      "aliases": [
+        "PM Kusum",
+        "Solar Pump Scheme",
+        "సోలార్ పంప్ పథకం",
+        "సౌర పంపులు",
+        "सोलर पंप योजना",
+        "சூரிய மின்சார பம்ப் திட்டம்"
+      ],
+      "keywords": "solar pump agriculture electricity renewable energy farmer సౌర పంపు రైతు सोलर पंप சூரிய பம்ப்",
+      "summary": "PM-KUSUM supports the use of solar energy in agriculture, including eligible solar pump installations.",
+      "details": "Available components, subsidy conditions, farmer contribution and application periods depend on state implementation and current notifications. Contact the state renewable energy agency or agriculture department.",
+      "source": "https://mnre.gov.in/",
+      "localized": {
+        "Telugu": "PM-KUSUM వ్యవసాయంలో సౌర విద్యుత్ వినియోగాన్ని ప్రోత్సహించే పథకం. ఇందులో అర్హత కలిగిన సౌర పంపుల ఏర్పాటుకు సంబంధించిన భాగాలు ఉన్నాయి. సబ్సిడీ, రైతు వాటా మరియు దరఖాస్తు విధానం రాష్ట్ర నిబంధనలపై ఆధారపడి ఉంటాయి.",
+        "Hindi": "PM-KUSUM कृषि में सौर ऊर्जा के उपयोग को बढ़ावा देने वाली योजना है। इसमें पात्र सौर पंप लगाने से जुड़े घटक शामिल हैं। सब्सिडी, किसान का अंशदान और आवेदन प्रक्रिया राज्य के नियमों पर निर्भर करते हैं।",
+        "Tamil": "PM-KUSUM விவசாயத்தில் சூரிய ஆற்றல் பயன்பாட்டை ஊக்குவிக்கும் திட்டமாகும். தகுதியுள்ள சூரிய மின்சார பம்புகளை நிறுவுவதற்கான கூறுகள் இதில் உள்ளன. மானியம், விவசாயியின் பங்களிப்பு மற்றும் விண்ணப்ப முறை மாநில விதிகளைப் பொறுத்தது."
+      }
+    },
+    {
+      "title": "Indiramma Indlu",
+      "aliases": [
+        "Indiramma Housing Scheme",
+        "Indiramma Illu",
+        "ఇందిరమ్మ ఇళ్లు",
+        "ఇందిరమ్మ ఇల్లు",
+        "ఇందిరమ్మ ఇండ్లు",
+        "इंदिरम्मा इंदलु",
+        "இந்திரம்மா வீடு"
+      ],
+      "keywords": "Telangana housing house construction poor families home housing assistance ఇల్లు ఇళ్లు ఇల్లు పథకం घर मकान வீடு",
+      "summary": "Indiramma Indlu is a Telangana housing initiative intended to support eligible families in obtaining housing assistance.",
+      "details": "Selection, eligibility, land or house conditions, financial assistance and application status must be checked through the official portal and relevant local authorities.",
+      "source": "https://indirammaindlu.telangana.gov.in/",
+      "localized": {
+        "Telugu": "ఇందిరమ్మ ఇండ్లు తెలంగాణ ప్రభుత్వ గృహ నిర్మాణ కార్యక్రమం. అర్హత కలిగిన కుటుంబాలకు ఇల్లు నిర్మించుకోవడానికి సహాయం అందించడం దీని లక్ష్యం. దరఖాస్తు స్థితి, ఎంపిక, అర్హత మరియు సహాయం వివరాలను అధికారిక పోర్టల్‌లో తనిఖీ చేయండి.",
+        "Hindi": "इंदिरम्मा इंदलु तेलंगाना सरकार की आवास योजना है। इसका उद्देश्य पात्र परिवारों को घर बनाने में सहायता देना है। आवेदन की स्थिति, चयन और पात्रता की जानकारी आधिकारिक पोर्टल पर जांचें।",
+        "Tamil": "இந்திரம்மா இந்த்லு தெலங்கானா அரசின் வீட்டு வசதித் திட்டமாகும். தகுதியுள்ள குடும்பங்கள் வீடு கட்ட உதவி பெறுவது இதன் நோக்கமாகும். விண்ணப்ப நிலை, தேர்வு மற்றும் தகுதி விவரங்களை அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Indiramma Atmeeya Bharosa",
+      "aliases": [
+        "Atmeeya Bharosa",
+        "Indiramma Atmeeya Bharosa",
+        "ఇందిరమ్మ ఆత్మీయ భరోసా",
+        "ఆత్మీయ భరోసా",
+        "आत्मीय भरोसा",
+        "ஆத்மீய பரோசா"
+      ],
+      "keywords": "Telangana landless agricultural labourer livelihood support agriculture labourer ఆత్మీయ భరోసా వ్యవసాయ కూలీలు",
+      "summary": "Indiramma Atmeeya Bharosa is a Telangana welfare initiative associated with support for eligible landless agricultural labourers.",
+      "details": "Eligibility, beneficiary identification, work requirements, assistance amount and payment schedules must be checked using the latest government guidelines.",
+      "source": "https://www.telangana.gov.in/",
+      "localized": {
+        "Telugu": "ఇందిరమ్మ ఆత్మీయ భరోసా తెలంగాణలో అర్హత కలిగిన భూమిలేని వ్యవసాయ కూలీలకు సహాయం అందించేందుకు రూపొందించిన సంక్షేమ కార్యక్రమం. లబ్ధిదారుల ఎంపిక, అర్హత, పని దినాలు మరియు సహాయం వివరాలను తాజా ప్రభుత్వ మార్గదర్శకాల ప్రకారం నిర్ధారించాలి.",
+        "Hindi": "इंदिरम्मा आत्मीय भरोसा तेलंगाना में पात्र भूमिहीन कृषि मजदूरों की सहायता से जुड़ी कल्याणकारी पहल है। लाभार्थी चयन, पात्रता और सहायता संबंधी जानकारी नवीनतम सरकारी दिशा-निर्देशों से जांचें।",
+        "Tamil": "இந்திரம்மா ஆத்மீய பரோசா தெலங்கானாவில் தகுதியுள்ள நிலமற்ற விவசாயத் தொழிலாளர்களுக்கு உதவுவதற்கான நலத்திட்டமாகும். பயனாளர் தேர்வு, தகுதி மற்றும் உதவி விவரங்களை சமீபத்திய அரசு வழிகாட்டுதல்களில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Rythu Bima",
+      "aliases": [
+        " రైతు బీమా",
+        "రైతు బీమా",
+        "Rythu Bheema",
+        "Farmer Life Insurance Telangana",
+        "రైతులకు జీవిత బీమా"
+      ],
+      "keywords": "Telangana farmer life insurance death benefit రైతు బీమా किसान बीमा விவசாயி காப்பீடு",
+      "summary": "Rythu Bima is a Telangana farmer life insurance programme.",
+      "details": "Beneficiary eligibility, age conditions, enrolment and claim procedures should be confirmed through the Telangana agriculture department and official guidelines.",
+      "source": "https://www.telangana.gov.in/",
+      "localized": {
+        "Telugu": "రైతు బీమా తెలంగాణ రైతుల కోసం రూపొందించిన జీవిత బీమా కార్యక్రమం. అర్హత, వయస్సు పరిమితులు, నమోదు మరియు క్లెయిమ్ విధానాన్ని వ్యవసాయ శాఖ అధికారిక మార్గదర్శకాల ద్వారా తెలుసుకోండి.",
+        "Hindi": "रायथु बीमा तेलंगाना के किसानों के लिए जीवन बीमा कार्यक्रम है। पात्रता, आयु सीमा, पंजीकरण और दावा प्रक्रिया की जानकारी कृषि विभाग से प्राप्त करें।",
+        "Tamil": "ரைது பீமா தெலங்கானா விவசாயிகளுக்கான ஆயுள் காப்பீட்டுத் திட்டமாகும். தகுதி, வயது வரம்பு, பதிவு மற்றும் இழப்பீட்டு நடைமுறைகளை வேளாண்மைத் துறையிடம் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Telangana Aarogyasri",
+      "aliases": [
+        "Aarogyasri",
+        "Rajiv Aarogyasri",
+        "ఆరోగ్యశ్రీ",
+        "ఆరోగ్య శ్రీ",
+        "आरोग्यश्री",
+        "ஆரோக்கியஸ்ரீ"
+      ],
+      "keywords": "Telangana health insurance hospital treatment medical assistance ఆరోగ్యం వైద్యం ఆసుపత్రి इलाज மருத்துவமனை",
+      "summary": "Aarogyasri is a Telangana health protection programme for eligible families and specified medical treatments.",
+      "details": "Covered treatments, hospitals, eligibility and package details should be confirmed through the official Aarogyasri system or the hospital help desk.",
+      "source": "https://aarogyasri.telangana.gov.in/",
+      "localized": {
+        "Telugu": "ఆరోగ్యశ్రీ తెలంగాణలో అర్హత కలిగిన కుటుంబాలకు నిర్దిష్ట వైద్య చికిత్సల కోసం ఆరోగ్య రక్షణ అందిస్తుంది. ఏ చికిత్సలు వర్తిస్తాయి, ఏ ఆసుపత్రులు అందుబాటులో ఉన్నాయి మరియు అర్హత ఏమిటో అధికారిక పోర్టల్ లేదా ఆసుపత్రి సహాయ కేంద్రంలో తెలుసుకోండి.",
+        "Hindi": "आरोग्यश्री तेलंगाना में पात्र परिवारों को निर्धारित चिकित्सा उपचारों के लिए स्वास्थ्य सुरक्षा प्रदान करती है। कौन-से उपचार और अस्पताल शामिल हैं, इसकी पुष्टि आधिकारिक पोर्टल या अस्पताल सहायता केंद्र से करें।",
+        "Tamil": "ஆரோக்கியஸ்ரீ தெலங்கானாவில் தகுதியுள்ள குடும்பங்களுக்கு குறிப்பிட்ட மருத்துவ சிகிச்சைகளுக்கான சுகாதார பாதுகாப்பை வழங்குகிறது. எந்த சிகிச்சைகள் மற்றும் மருத்துவமனைகள் இதில் அடங்கும் என்பதை அதிகாரப்பூர்வ தளம் அல்லது மருத்துவமனை உதவி மையத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Telangana ePASS Scholarships",
+      "aliases": [
+        "ePASS",
+        "Telangana Scholarship",
+        "Fee Reimbursement",
+        "తెలంగాణ స్కాలర్‌షిప్",
+        "ఈపాస్",
+        "ఫీజు రీయింబర్స్‌మెంట్",
+        "ईपास छात्रवृत्ति",
+        "உதவித்தொகை"
+      ],
+      "keywords": "student education scholarship fee reimbursement Telangana విద్యార్థి స్కాలర్‌షిప్ చదువు छात्रवृत्ति கல்வி உதவித்தொகை",
+      "summary": "Telangana ePASS provides online services for eligible student scholarships and fee reimbursement.",
+      "details": "Eligibility depends on the scheme, student category, income, course, institution and academic year. Students should check current notifications and application status on the official portal.",
+      "source": "https://telanganaepass.cgg.gov.in/",
+      "localized": {
+        "Telugu": "తెలంగాణ ePASS ద్వారా అర్హత కలిగిన విద్యార్థులు స్కాలర్‌షిప్ మరియు ఫీజు రీయింబర్స్‌మెంట్ సేవలకు దరఖాస్తు చేయవచ్చు. కోర్సు, వర్గం, కుటుంబ ఆదాయం మరియు విద్యా సంవత్సరం ఆధారంగా అర్హత మారుతుంది. అధికారిక పోర్టల్‌లో దరఖాస్తు స్థితిని తనిఖీ చేయండి.",
+        "Hindi": "तेलंगाना ePASS के माध्यम से पात्र विद्यार्थी छात्रवृत्ति और फीस प्रतिपूर्ति के लिए आवेदन कर सकते हैं। पात्रता पाठ्यक्रम, श्रेणी, पारिवारिक आय और शैक्षणिक वर्ष पर निर्भर करती है। आवेदन की स्थिति आधिकारिक पोर्टल पर जांचें।",
+        "Tamil": "தெலங்கானா ePASS மூலம் தகுதியுள்ள மாணவர்கள் கல்வி உதவித்தொகை மற்றும் கட்டணத் திருப்பிச் செலுத்தலுக்கு விண்ணப்பிக்கலாம். தகுதி பாடநெறி, பிரிவு, குடும்ப வருமானம் மற்றும் கல்வியாண்டைப் பொறுத்தது."
+      }
+    },
+    {
+      "title": "Telangana Gruha Jyothi",
+      "aliases": [
+        "Gruha Jyothi",
+        "Gruha Jyoti",
+        "గృహ జ్యోతి",
+        "గృహజ్యోతి",
+        "गृह ज्योति",
+        "கிருஹ ஜ்யோதி"
+      ],
+      "keywords": "Telangana electricity bill free power household electricity గృహ జ్యోతి కరెంట్ విద్యుత్ बिजली மின்சாரம்",
+      "summary": "Gruha Jyothi is a Telangana household electricity bill relief initiative for eligible consumers.",
+      "details": "Eligibility, electricity consumption limits, service connection conditions and implementation details should be verified with the electricity distribution company and current government notifications.",
+      "source": "https://www.telangana.gov.in/Government-Initiatives/",
+      "localized": {
+        "Telugu": "గృహ జ్యోతి తెలంగాణలో అర్హత కలిగిన గృహ విద్యుత్ వినియోగదారులకు విద్యుత్ బిల్లు రాయితీకి సంబంధించిన కార్యక్రమం. అర్హత, వినియోగ పరిమితి మరియు కనెక్షన్ నిబంధనలను విద్యుత్ శాఖలో నిర్ధారించండి.",
+        "Hindi": "गृह ज्योति तेलंगाना में पात्र घरेलू बिजली उपभोक्ताओं के लिए बिजली बिल राहत योजना है। पात्रता, खपत सीमा और कनेक्शन की शर्तें बिजली विभाग से जांचें।",
+        "Tamil": "கிருஹ ஜ்யோதி தெலங்கானாவின் தகுதியுள்ள வீட்டு மின்சார நுகர்வோருக்கான கட்டண நிவாரணத் திட்டமாகும். தகுதி, பயன்பாட்டு வரம்பு மற்றும் இணைப்பு நிபந்தனைகளை மின்வாரியத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Telangana Aasara Pensions",
+      "aliases": [
+        "Aasara",
+        "Aasara Pension",
+        "ఆసరా",
+        "ఆసరా పెన్షన్",
+        "ఆసరా పింఛన్",
+        "आसरा पेंशन",
+        "ஆசரா ஓய்வூதியம்"
+      ],
+      "keywords": "Telangana pension elderly widow disabled social security వృద్ధాప్య పెన్షన్ వికలాంగులు వితంతువు पेंशन ஓய்வூதியம்",
+      "summary": "Aasara is a Telangana social security pension programme for eligible beneficiaries.",
+      "details": "Pension categories, age requirements, income conditions, documents and current payment details should be checked with the relevant local welfare office.",
+      "source": "https://www.telangana.gov.in/",
+      "localized": {
+        "Telugu": "ఆసరా తెలంగాణ ప్రభుత్వ సామాజిక భద్రతా పెన్షన్ కార్యక్రమం. వృద్ధులు, వితంతువులు మరియు ఇతర అర్హత కలిగిన వర్గాలకు నిబంధనల ప్రకారం పెన్షన్ సహాయం అందించబడుతుంది. అర్హత మరియు దరఖాస్తు వివరాల కోసం స్థానిక సంక్షేమ కార్యాలయాన్ని సంప్రదించండి.",
+        "Hindi": "आसरा तेलंगाना की सामाजिक सुरक्षा पेंशन योजना है। पात्र वृद्ध व्यक्तियों, विधवाओं और अन्य श्रेणियों को नियमों के अनुसार पेंशन सहायता दी जाती है। पात्रता के लिए स्थानीय कल्याण कार्यालय से संपर्क करें।",
+        "Tamil": "ஆசரா தெலங்கானாவின் சமூக பாதுகாப்பு ஓய்வூதியத் திட்டமாகும். தகுதியுள்ள முதியவர்கள், விதவைகள் மற்றும் பிற பிரிவினருக்கு விதிகளின்படி உதவி வழங்கப்படுகிறது. தகுதி விவரங்களுக்கு உள்ளூர் நலத்துறை அலுவலகத்தை அணுகவும்."
+      }
+    },
+    {
+      "title": "Telangana Maha Lakshmi",
+      "aliases": [
+        "Maha Lakshmi",
+        "Mahalakshmi Scheme",
+        "మహాలక్ష్మి",
+        "మహాలక్ష్మి పథకం",
+        "महालक्ष्मी योजना",
+        "மகாலட்சுமி"
+      ],
+      "keywords": "Telangana women welfare free bus travel financial assistance LPG మహిళలు మహిళా సంక్షేమం మహిళా योजना பெண்கள்",
+      "summary": "Maha Lakshmi is a Telangana government initiative with benefits for eligible women.",
+      "details": "The initiative includes different benefit components. Eligibility, service conditions and implementation details should be checked through the latest official Telangana government announcements.",
+      "source": "https://www.telangana.gov.in/Government-Initiatives/",
+      "localized": {
+        "Telugu": "మహాలక్ష్మి తెలంగాణ ప్రభుత్వ మహిళా సంక్షేమ కార్యక్రమం. ఈ కార్యక్రమంలో వివిధ ప్రయోజనాలు ఉన్నాయి. ఏ ప్రయోజనం మీకు వర్తిస్తుంది, అర్హత మరియు సేవా నిబంధనలు ఏమిటో తాజా అధికారిక ప్రకటనల ద్వారా నిర్ధారించండి.",
+        "Hindi": "महालक्ष्मी तेलंगाना सरकार की महिला कल्याण पहल है। इसमें अलग-अलग लाभ शामिल हैं। कौन-सा लाभ लागू होता है और उसकी पात्रता क्या है, इसकी पुष्टि नवीनतम सरकारी घोषणाओं से करें।",
+        "Tamil": "மகாலட்சுமி தெலங்கானா அரசின் பெண்கள் நலத் திட்டமாகும். இதில் பல்வேறு நன்மைகள் உள்ளன. எந்த நன்மை பொருந்தும் மற்றும் அதன் தகுதி என்ன என்பதை சமீபத்திய அரசு அறிவிப்புகளில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Kalyana Lakshmi and Shaadi Mubarak",
+      "aliases": [
+        "Kalyana Lakshmi",
+        "Shaadi Mubarak",
+        "కళ్యాణ లక్ష్మి",
+        "షాదీ ముబారక్",
+        "కల్యాణ లక్ష్మి",
+        "कल्याण लक्ष्मी",
+        "शादी मुबारक"
+      ],
+      "keywords": "Telangana marriage assistance wedding financial support bride marriage మహిళా వివాహ సహాయం शादी विवाह திருமண உதவி",
+      "summary": "Kalyana Lakshmi and Shaadi Mubarak are Telangana marriage assistance welfare schemes for eligible applicants.",
+      "details": "Eligibility, income limits, age requirements, residence conditions, application timing and documents must be verified using the current official rules.",
+      "source": "https://telanganaepass.cgg.gov.in/",
+      "localized": {
+        "Telugu": "కళ్యాణ లక్ష్మి మరియు షాదీ ముబారక్ తెలంగాణలో అర్హత కలిగిన వర్గాలకు వివాహ సహాయం అందించే సంక్షేమ పథకాలు. వయస్సు, ఆదాయం, నివాసం, వివాహ తేదీ మరియు అవసరమైన పత్రాలను ప్రస్తుత అధికారిక నిబంధనల ప్రకారం తనిఖీ చేయండి.",
+        "Hindi": "कल्याण लक्ष्मी और शादी मुबारक तेलंगाना में पात्र श्रेणियों के लिए विवाह सहायता योजनाएं हैं। आयु, आय, निवास, विवाह की तारीख और जरूरी दस्तावेज वर्तमान सरकारी नियमों के अनुसार जांचें।",
+        "Tamil": "கல்யாண லட்சுமி மற்றும் ஷாதி முபாரக் தெலங்கானாவில் தகுதியுள்ள பிரிவினருக்கான திருமண உதவித் திட்டங்களாகும். வயது, வருமானம், வசிப்பிடம், திருமண தேதி மற்றும் ஆவணங்களை தற்போதைய விதிகளின்படி சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Pradhan Mantri Awas Yojana Gramin",
+      "aliases": [
+        "PMAY-G",
+        "PM Awas Yojana Gramin",
+        "గ్రామీణ గృహ నిర్మాణ పథకం",
+        "प्रधानमंत्री आवास योजना ग्रामीण",
+        "பிரதம மந்திரி ஆவாஸ் யோஜனா கிராமின்"
+      ],
+      "keywords": "rural housing house construction poor families గ్రామీణ ఇల్లు आवास வீடு",
+      "summary": "PMAY-G is a Central Government rural housing scheme for eligible rural households.",
+      "details": "Beneficiary selection, housing assistance, construction stages and eligibility are governed by official programme guidelines and local verification.",
+      "source": "https://pmayg.nic.in/",
+      "localized": {
+        "Telugu": "PMAY-G గ్రామీణ ప్రాంతాల్లో అర్హత కలిగిన కుటుంబాలకు గృహ నిర్మాణ సహాయం అందించే కేంద్ర ప్రభుత్వ పథకం. లబ్ధిదారుల ఎంపిక, అర్హత మరియు సహాయం వివరాలను అధికారిక పోర్టల్‌లో తనిఖీ చేయండి.",
+        "Hindi": "PMAY-G ग्रामीण क्षेत्रों के पात्र परिवारों को घर बनाने में सहायता देने वाली केंद्र सरकार की योजना है। लाभार्थी चयन और पात्रता की जानकारी आधिकारिक पोर्टल पर जांचें।",
+        "Tamil": "PMAY-G கிராமப்புறங்களில் தகுதியுள்ள குடும்பங்களுக்கு வீடு கட்ட உதவும் மத்திய அரசுத் திட்டமாகும். பயனாளர் தேர்வு மற்றும் தகுதி விவரங்களை அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Pradhan Mantri Awas Yojana Urban",
+      "aliases": [
+        "PMAY-U",
+        "PM Awas Urban",
+        "పట్టణ గృహ నిర్మాణ పథకం",
+        "प्रधानमंत्री आवास योजना शहरी",
+        "நகர்ப்புற வீட்டு வசதி திட்டம்"
+      ],
+      "keywords": "urban housing house city home construction పట్టణ ఇల్లు शहरी आवास நகர்ப்புற வீடு",
+      "summary": "PMAY-U is a government housing programme for eligible urban households.",
+      "details": "The applicable scheme component, eligibility, income category, documents and application procedure depend on current programme guidelines.",
+      "source": "https://pmay-urban.gov.in/",
+      "localized": {
+        "Telugu": "PMAY-U పట్టణ ప్రాంతాల్లో అర్హత కలిగిన కుటుంబాలకు గృహ సదుపాయం కల్పించేందుకు రూపొందించిన ప్రభుత్వ పథకం. ఆదాయ వర్గం, అర్హత మరియు దరఖాస్తు విధానాన్ని అధికారిక పోర్టల్‌లో తనిఖీ చేయండి.",
+        "Hindi": "PMAY-U शहरी क्षेत्रों के पात्र परिवारों के लिए आवास योजना है। आय वर्ग, पात्रता और आवेदन प्रक्रिया आधिकारिक पोर्टल पर जांचें।",
+        "Tamil": "PMAY-U நகர்ப்புறங்களில் தகுதியுள்ள குடும்பங்களுக்கு வீட்டு வசதி வழங்கும் திட்டமாகும். வருமானப் பிரிவு, தகுதி மற்றும் விண்ணப்ப முறையை அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Ayushman Bharat PM-JAY",
+      "aliases": [
+        "Ayushman Bharat",
+        "PM-JAY",
+        "ఆయుష్మాన్ భారత్",
+        "ఆయుష్మాన్ కార్డు",
+        "आयुष्मान भारत",
+        "ஆயுஷ்மான் பாரத்"
+      ],
+      "keywords": "health insurance hospital treatment medical card healthcare ఆరోగ్య బీమా వైద్యం स्वास्थ्य बीमा மருத்துவ காப்பீடு",
+      "summary": "Ayushman Bharat PM-JAY provides health coverage to eligible families for specified hospital treatments.",
+      "details": "Eligibility, empanelled hospitals and covered procedures can be checked using the official beneficiary portal or helpline. Do not assume every person is automatically eligible.",
+      "source": "https://pmjay.gov.in/",
+      "localized": {
+        "Telugu": "ఆయుష్మాన్ భారత్ PM-JAY అర్హత కలిగిన కుటుంబాలకు నిర్దిష్ట ఆసుపత్రి చికిత్సల కోసం ఆరోగ్య కవరేజ్ అందిస్తుంది. మీ పేరు అర్హుల జాబితాలో ఉందో లేదో మరియు ఏ ఆసుపత్రుల్లో సేవలు అందుబాటులో ఉన్నాయో అధికారిక పోర్టల్‌లో తనిఖీ చేయండి.",
+        "Hindi": "आयुष्मान भारत PM-JAY पात्र परिवारों को निर्धारित अस्पताल उपचारों के लिए स्वास्थ्य कवरेज देता है। अपनी पात्रता और सूचीबद्ध अस्पतालों की जानकारी आधिकारिक पोर्टल पर जांचें।",
+        "Tamil": "ஆயுஷ்மான் பாரத் PM-JAY தகுதியுள்ள குடும்பங்களுக்கு குறிப்பிட்ட மருத்துவமனை சிகிச்சைகளுக்கான சுகாதார காப்பீட்டை வழங்குகிறது. உங்கள் தகுதி மற்றும் இணைக்கப்பட்ட மருத்துவமனைகளை அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Mahatma Gandhi National Rural Employment Guarantee Scheme",
+      "aliases": [
+        "MGNREGS",
+        "MGNREGA",
+        "NREGA",
+        "నరేగా",
+        "ఉపాధి హామీ పథకం",
+        "मनरेगा",
+        "100 days employment",
+        "நூறு நாள் வேலை திட்டம்"
+      ],
+      "keywords": "rural employment job work labour wage గ్రామీణ ఉపాధి కూలి పని रोजगार வேலைவாய்ப்பு",
+      "summary": "MGNREGS provides a legal framework for wage employment to eligible rural households that demand unskilled manual work.",
+      "details": "Job cards, work demand, work allocation, wage payments and grievance procedures are managed through the programme's official systems and local authorities.",
+      "source": "https://nrega.nic.in/",
+      "localized": {
+        "Telugu": "మహాత్మా గాంధీ జాతీయ గ్రామీణ ఉపాధి హామీ పథకం గ్రామీణ కుటుంబాలకు కూలి పనిని కోరుకునే అవకాశం కల్పిస్తుంది. జాబ్ కార్డు, పని కోసం దరఖాస్తు మరియు చెల్లింపు వివరాల కోసం గ్రామపంచాయతీ లేదా అధికారిక పోర్టల్‌ను సంప్రదించండి.",
+        "Hindi": "मनरेगा ग्रामीण परिवारों को मांग के आधार पर अकुशल मजदूरी रोजगार का अधिकार प्रदान करती है। जॉब कार्ड, काम की मांग और मजदूरी भुगतान की जानकारी पंचायत या आधिकारिक पोर्टल से प्राप्त करें।",
+        "Tamil": "மகாத்மா காந்தி தேசிய ஊரக வேலை உறுதித் திட்டம் கிராமப்புற குடும்பங்களுக்கு கோரிக்கையின் அடிப்படையில் கூலி வேலை வாய்ப்பை வழங்குகிறது. வேலை அட்டை மற்றும் வேலை கோரிக்கை விவரங்களுக்கு ஊராட்சி அல்லது அதிகாரப்பூர்வ தளத்தை அணுகவும்."
+      }
+    },
+    {
+      "title": "PM Vishwakarma",
+      "aliases": [
+        "PM Vishwakarma Yojana",
+        "విశ్వకర్మ పథకం",
+        "విశ్వకర్మ",
+        "पीएम विश्वकर्मा",
+        "விஸ்வகர்மா திட்டம்"
+      ],
+      "keywords": "artisan traditional workers craftspeople skill training toolkit loan కమ్మరి వడ్రంగి చేతివృత్తులు कारीगर கைவினைஞர்",
+      "summary": "PM Vishwakarma supports eligible traditional artisans and craftspeople through training, toolkit support and other programme benefits.",
+      "details": "The scheme covers notified traditional trades. Registration, verification, training, toolkit incentives and credit support are subject to official guidelines.",
+      "source": "https://pmvishwakarma.gov.in/",
+      "localized": {
+        "Telugu": "PM విశ్వకర్మ సంప్రదాయ చేతివృత్తులు చేసే అర్హత కలిగిన కళాకారులు మరియు పనివారికి మద్దతు అందించే కేంద్ర ప్రభుత్వ పథకం. శిక్షణ, టూల్‌కిట్ సహాయం మరియు ఇతర ప్రయోజనాలు నిబంధనల ప్రకారం అందుబాటులో ఉంటాయి. అధికారిక పోర్టల్‌లో నమోదు వివరాలను తెలుసుకోండి.",
+        "Hindi": "PM विश्वकर्मा पारंपरिक काम करने वाले पात्र कारीगरों और शिल्पकारों को सहायता देने वाली केंद्र सरकार की योजना है। प्रशिक्षण, टूलकिट सहायता और अन्य लाभ नियमों के अनुसार मिलते हैं।",
+        "Tamil": "PM விஸ்வகர்மா பாரம்பரிய தொழில்களில் ஈடுபடும் தகுதியுள்ள கைவினைஞர்களுக்கு ஆதரவு வழங்கும் மத்திய அரசுத் திட்டமாகும். பயிற்சி, கருவித்தொகுப்பு உதவி மற்றும் பிற நன்மைகள் விதிகளின்படி கிடைக்கும்."
+      }
+    },
+    {
+      "title": "PM SVANidhi",
+      "aliases": [
+        "SVANidhi",
+        "Street Vendor Loan",
+        "వీధి వ్యాపారుల రుణ పథకం",
+        "వీధి వ్యాపారులు",
+        "पीएम स्वनिधि",
+        "தெருவோர வியாபாரிகள் கடன்"
+      ],
+      "keywords": "street vendor small business working capital loan hawker చిన్న వ్యాపారం వీధి వ్యాపారి ठेला विक्रेता சிறு வியாபாரம்",
+      "summary": "PM SVANidhi is a programme that provides eligible street vendors access to working capital support.",
+      "details": "Vendor eligibility, loan terms, lending stages and application requirements should be checked through the official portal and participating lending institutions.",
+      "source": "https://pmsvanidhi.mohua.gov.in/",
+      "localized": {
+        "Telugu": "PM SVANidhi వీధి వ్యాపారులకు వ్యాపార అవసరాల కోసం రుణ సదుపాయం అందించే పథకం. అర్హత, రుణ నిబంధనలు మరియు దరఖాస్తు విధానం అధికారిక పోర్టల్‌లో తనిఖీ చేయండి.",
+        "Hindi": "PM SVANidhi सड़क विक्रेताओं को व्यवसाय के लिए कार्यशील पूंजी ऋण सुविधा देता है। पात्रता, ऋण की शर्तें और आवेदन प्रक्रिया आधिकारिक पोर्टल पर जांचें।",
+        "Tamil": "PM SVANidhi தெருவோர வியாபாரிகளுக்கு வணிகத் தேவைகளுக்கான கடன் வசதியை வழங்குகிறது. தகுதி, கடன் நிபந்தனைகள் மற்றும் விண்ணப்ப முறையை அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Pradhan Mantri MUDRA Yojana",
+      "aliases": [
+        "PM MUDRA",
+        "Mudra Loan",
+        "ముద్ర రుణం",
+        "ముద్ర లోన్",
+        "मुद्रा लोन",
+        "முத்ரா கடன்"
+      ],
+      "keywords": "small business loan micro enterprise startup business entrepreneur చిన్న వ్యాపారం రుణం व्यापार ऋण சிறு தொழில் கடன்",
+      "summary": "Pradhan Mantri MUDRA Yojana supports eligible micro and small business activities through loans from participating lenders.",
+      "details": "Loan categories, amounts, interest rates, eligibility and repayment conditions depend on the lender and current scheme rules. Apply through participating banks or financial institutions.",
+      "source": "https://www.mudra.org.in/",
+      "localized": {
+        "Telugu": "ప్రధానమంత్రి ముద్ర యోజన చిన్న వ్యాపారాలు మరియు సూక్ష్మ సంస్థలకు రుణ సదుపాయం అందించేందుకు రూపొందించబడింది. రుణ పరిమితి, వడ్డీ, అర్హత మరియు తిరిగి చెల్లింపు నిబంధనలను సంబంధిత బ్యాంకులో తెలుసుకోండి.",
+        "Hindi": "प्रधानमंत्री मुद्रा योजना सूक्ष्म और छोटे व्यवसायों को ऋण सुविधा देने के लिए है। ऋण सीमा, ब्याज, पात्रता और भुगतान की शर्तें संबंधित बैंक से जांचें।",
+        "Tamil": "பிரதம மந்திரி முத்ரா யோஜனா சிறு மற்றும் குறு தொழில்களுக்கு கடன் வசதி வழங்குகிறது. கடன் வரம்பு, வட்டி, தகுதி மற்றும் திருப்பிச் செலுத்தும் விதிகளை வங்கியில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Pradhan Mantri Ujjwala Yojana",
+      "aliases": [
+        "PM Ujjwala",
+        "Ujjwala Yojana",
+        "ఉజ్వల పథకం",
+        "గ్యాస్ కనెక్షన్ పథకం",
+        "उज्ज्वला योजना",
+        "உஜ்வலா திட்டம்"
+      ],
+      "keywords": "LPG gas connection women household cooking fuel ఉజ్వల గ్యాస్ गैस कनेक्शन சமையல் எரிவாயு",
+      "summary": "PM Ujjwala Yojana supports eligible households in obtaining LPG connections.",
+      "details": "Eligibility, documents, connection benefits and current application rules should be checked with an authorised LPG distributor or the official portal.",
+      "source": "https://www.pmuy.gov.in/",
+      "localized": {
+        "Telugu": "ప్రధానమంత్రి ఉజ్వల యోజన అర్హత కలిగిన కుటుంబాలకు LPG గ్యాస్ కనెక్షన్ పొందేందుకు సహాయం అందిస్తుంది. అర్హత, అవసరమైన పత్రాలు మరియు దరఖాస్తు విధానాన్ని అధికారిక పోర్టల్ లేదా గ్యాస్ పంపిణీదారుని వద్ద తెలుసుకోండి.",
+        "Hindi": "प्रधानमंत्री उज्ज्वला योजना पात्र परिवारों को LPG गैस कनेक्शन प्राप्त करने में सहायता देती है। पात्रता और जरूरी दस्तावेज आधिकारिक पोर्टल या गैस वितरक से जांचें।",
+        "Tamil": "பிரதம மந்திரி உஜ்வலா யோஜனா தகுதியுள்ள குடும்பங்களுக்கு LPG எரிவாயு இணைப்பு பெற உதவுகிறது. தகுதி மற்றும் தேவையான ஆவணங்களை அதிகாரப்பூர்வ தளம் அல்லது எரிவாயு விநியோகஸ்தரிடம் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "eShram",
+      "aliases": [
+        "e-Shram",
+        "Unorganised Workers Registration",
+        "ఈశ్రమ్",
+        "ఈ శ్రమ్",
+        "ई-श्रम",
+        "இ-ஷ்ரம்"
+      ],
+      "keywords": "unorganised workers labour registration worker card construction worker కూలీలు కార్మికులు मजदूर தொழிலாளர்கள்",
+      "summary": "eShram is a national database and registration platform for eligible unorganised workers.",
+      "details": "Workers can register through the official portal if they meet the current criteria. Registration details, Aadhaar-linked mobile requirements and available services should be checked on the portal.",
+      "source": "https://eshram.gov.in/",
+      "localized": {
+        "Telugu": "eShram అనేది అసంఘటిత రంగ కార్మికుల నమోదు కోసం కేంద్ర ప్రభుత్వ వేదిక. అర్హత కలిగిన కార్మికులు అధికారిక పోర్టల్‌లో నమోదు చేసుకోవచ్చు. అవసరమైన వివరాలు మరియు మొబైల్ నంబర్ నిబంధనలను పోర్టల్‌లో తనిఖీ చేయండి.",
+        "Hindi": "eShram असंगठित क्षेत्र के श्रमिकों के पंजीकरण के लिए राष्ट्रीय मंच है। पात्र श्रमिक आधिकारिक पोर्टल पर पंजीकरण कर सकते हैं। आवश्यक जानकारी और मोबाइल नंबर संबंधी शर्तें जांचें।",
+        "Tamil": "eShram என்பது அமைப்புசாரா தொழிலாளர்களுக்கான தேசிய பதிவு தளமாகும். தகுதியுள்ள தொழிலாளர்கள் அதிகாரப்பூர்வ தளத்தில் பதிவு செய்யலாம். தேவையான விவரங்கள் மற்றும் கைபேசி நிபந்தனைகளை சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+      "aliases": [
+        "PMJJBY",
+        "Jeevan Jyoti Bima",
+        "జీవన్ జ్యోతి బీమా",
+        "जीवन ज्योति बीमा",
+        "ஜீவன் ஜோதி காப்பீடு"
+      ],
+      "keywords": "life insurance bank insurance family protection జీవిత బీమా जीवन बीमा ஆயுள் காப்பீடு",
+      "summary": "PMJJBY is a renewable life insurance scheme available through participating banks and insurers to eligible subscribers.",
+      "details": "Age requirements, annual premium, coverage and claim conditions must be checked through the bank or official scheme information.",
+      "source": "https://jansuraksha.gov.in/",
+      "localized": {
+        "Telugu": "PMJJBY అర్హత కలిగిన బ్యాంకు ఖాతాదారులకు జీవిత బీమా సదుపాయం అందించే పథకం. వయస్సు, ప్రీమియం, కవరేజ్ మరియు క్లెయిమ్ నిబంధనలను బ్యాంకులో లేదా అధికారిక వెబ్‌సైట్‌లో తెలుసుకోండి.",
+        "Hindi": "PMJJBY पात्र बैंक खाताधारकों के लिए जीवन बीमा योजना है। आयु, प्रीमियम, कवरेज और दावा नियम बैंक या आधिकारिक वेबसाइट से जांचें।",
+        "Tamil": "PMJJBY தகுதியுள்ள வங்கி கணக்குதாரர்களுக்கான ஆயுள் காப்பீட்டுத் திட்டமாகும். வயது, பிரீமியம், காப்பீடு மற்றும் கோரிக்கை விதிகளை வங்கி அல்லது அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Pradhan Mantri Suraksha Bima Yojana",
+      "aliases": [
+        "PMSBY",
+        "Suraksha Bima",
+        "సురక్ష బీమా",
+        "సురక్షా బీమా",
+        "सुरक्षा बीमा",
+        "சுரக்ஷா பீமா"
+      ],
+      "keywords": "accident insurance accidental death disability bank insurance ప్రమాద బీమా दुर्घटना बीमा விபத்து காப்பீடு",
+      "summary": "PMSBY is an accident insurance scheme available through participating banks and insurers to eligible subscribers.",
+      "details": "Age limits, premium, accident coverage and claim procedures should be confirmed through the bank and official scheme guidelines.",
+      "source": "https://jansuraksha.gov.in/",
+      "localized": {
+        "Telugu": "PMSBY అర్హత కలిగిన బ్యాంకు ఖాతాదారులకు ప్రమాద బీమా అందించే పథకం. వయస్సు పరిమితి, ప్రీమియం, బీమా కవరేజ్ మరియు క్లెయిమ్ విధానాన్ని బ్యాంకులో తెలుసుకోండి.",
+        "Hindi": "PMSBY पात्र बैंक खाताधारकों के लिए दुर्घटना बीमा योजना है। आयु सीमा, प्रीमियम, बीमा कवरेज और दावा प्रक्रिया बैंक से जांचें।",
+        "Tamil": "PMSBY தகுதியுள்ள வங்கி கணக்குதாரர்களுக்கான விபத்து காப்பீட்டுத் திட்டமாகும். வயது வரம்பு, பிரீமியம், காப்பீட்டு பாதுகாப்பு மற்றும் கோரிக்கை நடைமுறையை வங்கியில் சரிபார்க்கவும்."
+      }
+    },
+    {
+      "title": "Atal Pension Yojana",
+      "aliases": [
+        "APY",
+        "Atal Pension",
+        "అటల్ పెన్షన్ యోజన",
+        "అటల్ పెన్షన్",
+        "अटल पेंशन योजना",
+        "அடல் ஓய்வூதிய திட்டம்"
+      ],
+      "keywords": "pension retirement savings old age bank pension వృద్ధాప్య పెన్షన్ बुढ़ापा पेंशन ஓய்வூதியம்",
+      "summary": "Atal Pension Yojana is a pension scheme designed to provide eligible subscribers with a pension after reaching the prescribed age.",
+      "details": "Entry age, contribution amount, pension options and eligibility restrictions should be checked through the official scheme information or participating bank.",
+      "source": "https://www.npscra.nsdl.co.in/",
+      "localized": {
+        "Telugu": "అటల్ పెన్షన్ యోజన భవిష్యత్తులో పెన్షన్ పొందేందుకు రూపొందించిన పథకం. చేరే వయస్సు, చెల్లించాల్సిన మొత్తం మరియు అర్హతను అధికారిక వివరాలు లేదా బ్యాంకు ద్వారా నిర్ధారించండి.",
+        "Hindi": "अटल पेंशन योजना भविष्य में पेंशन प्राप्त करने के लिए बनाई गई योजना है। प्रवेश आयु, योगदान राशि और पात्रता की जानकारी बैंक या आधिकारिक स्रोत से जांचें।",
+        "Tamil": "அடல் ஓய்வூதியத் திட்டம் எதிர்காலத்தில் ஓய்வூதியம் பெறுவதற்கான திட்டமாகும். சேரும் வயது, பங்களிப்பு தொகை மற்றும் தகுதியை வங்கி அல்லது அதிகாரப்பூர்வ தளத்தில் சரிபார்க்கவும்."
+      }
+    }
+  ],
+  "application": [
+    {
+      "title": "How to apply for PM-KISAN",
+      "aliases": [
+        "PM Kisan application",
+        "PM Kisan registration",
+        "పీఎం కిసాన్ దరఖాస్తు",
+        "पीएम किसान आवेदन"
+      ],
+      "keywords": "PM Kisan apply registration farmer application documents",
+      "summary": "Farmers can use the official PM-KISAN portal to access registration and beneficiary services.",
+      "details": "Keep your Aadhaar details, bank account information and land record details ready. Follow the portal instructions and check the application or beneficiary status. Eligibility is subject to scheme rules.",
+      "source": "https://pmkisan.gov.in/"
+    },
+    {
+      "title": "How to apply for Indiramma Indlu",
+      "aliases": [
+        "Indiramma house application",
+        "ఇందిరమ్మ ఇల్లు దరఖాస్తు",
+        "ఇందిరమ్మ ఇండ్లకు ఎలా అప్లై చేయాలి"
+      ],
+      "keywords": "Telangana Indiramma housing apply application documents house",
+      "summary": "Applicants should follow the official Indiramma Indlu application and verification process.",
+      "details": "Check the current application process, required documents and beneficiary status through the official portal or the relevant local government office. Do not pay unofficial agents for guaranteed selection.",
+      "source": "https://indirammaindlu.telangana.gov.in/"
+    },
+    {
+      "title": "How to apply for PM Vishwakarma",
+      "aliases": [
+        "PM Vishwakarma application",
+        "విశ్వకర్మ అప్లికేషన్",
+        "విశ్వకర్మకు ఎలా అప్లై చేయాలి"
+      ],
+      "keywords": "PM Vishwakarma artisan application registration training toolkit",
+      "summary": "Eligible traditional artisans can access PM Vishwakarma registration through the authorised process.",
+      "details": "Applicants should check their trade eligibility, registration requirements, identity documents and verification process through the official portal or authorised common service centre.",
+      "source": "https://pmvishwakarma.gov.in/"
+    },
+    {
+      "title": "How to apply for PM SVANidhi",
+      "aliases": [
+        "SVANidhi application",
+        "Street vendor loan application",
+        "వీధి వ్యాపారుల రుణం ఎలా పొందాలి"
+      ],
+      "keywords": "street vendor loan application registration documents",
+      "summary": "Eligible street vendors can apply for PM SVANidhi through the official application process.",
+      "details": "Check vendor eligibility, required identification or vending documents, lending institution requirements and current loan terms before applying.",
+      "source": "https://pmsvanidhi.mohua.gov.in/"
+    },
+    {
+      "title": "How to apply for Telangana ePASS",
+      "aliases": [
+        "ePASS application",
+        "Telangana scholarship application",
+        "ఈపాస్ అప్లికేషన్",
+        "స్కాలర్‌షిప్ ఎలా అప్లై చేయాలి"
+      ],
+      "keywords": "student scholarship fee reimbursement application documents",
+      "summary": "Eligible students can use the Telangana ePASS portal to access scholarship application services.",
+      "details": "Keep required educational certificates, bank details, income and category certificates if applicable, and institution information ready. Check the current academic-year notification for exact requirements.",
+      "source": "https://telanganaepass.cgg.gov.in/"
+    }
+  ],
+  "grievance": [
+    {
+      "title": "How to register a government grievance",
+      "aliases": [
+        "file complaint",
+        "government complaint",
+        "ప్రభుత్వానికి ఫిర్యాదు",
+        "ప్రభుత్వ ఫిర్యాదు ఎలా చేయాలి",
+        "शिकायत दर्ज करें",
+        "அரசு புகார்"
+      ],
+      "keywords": "complaint grievance government problem public service issue ఫిర్యాదు సమస్య शिकायत புகார்",
+      "summary": "Citizens can submit grievances through the appropriate department's official grievance channel.",
+      "details": "Identify the department responsible for the issue. Keep application numbers, dates and supporting documents ready. Save the acknowledgement or complaint reference number after submission. Sahaaya AI does not submit complaints on your behalf.",
+      "source": "https://pgportal.gov.in/"
+    },
+    {
+      "title": "Telangana Prajavani",
+      "aliases": [
+        "Prajavani",
+        " ప్రజావాణి",
+        "ప్రజావాణి ఫిర్యాదు",
+        "Telangana public grievance",
+        "ప్రజా సమస్యలు"
+      ],
+      "keywords": "Telangana public grievance citizen complaint Prajavani ప్రజావాణి ఫిర్యాదు",
+      "summary": "Prajavani is a public grievance mechanism used by Telangana citizens to raise issues with government authorities.",
+      "details": "Check current submission arrangements, dates and relevant district or department information through official Telangana government announcements.",
+      "source": "https://www.telangana.gov.in/"
+    }
+  ],
+  "farmer": [
+    {
+      "title": "Agriculture Department Support",
+      "aliases": [
+        "agriculture office",
+        "farmer help",
+        "వ్యవసాయ శాఖ",
+        "రైతు సహాయం"
+      ],
+      "keywords": "farmer agriculture department crop support seeds fertilizer farming రైతు వ్యవసాయం",
+      "summary": "The Agriculture Department provides information and services related to farming, seeds, crop support and government programmes.",
+      "details": "For local support, contact your nearest agriculture extension officer or district agriculture office. Ask about current crop advisories, available inputs and active government schemes.",
+      "source": "https://agri.telangana.gov.in/"
+    },
+    {
+      "title": "Crop Pest and Disease Assistance",
+      "aliases": [
+        "crop disease",
+        "pest problem",
+        "పంటకు తెగులు",
+        "పంట వ్యాధి",
+        "कीट समस्या",
+        "பயிர் நோய்"
+      ],
+      "keywords": "crop pest disease insect plant leaves agriculture పంట తెగులు పురుగు रोग பூச்சி",
+      "summary": "Farmers should identify crop pests and diseases before selecting a treatment.",
+      "details": "The crop name, affected plant part, symptoms and location are useful for identifying a possible problem. Consult an agriculture officer before applying pesticides. Always follow the product label and safety instructions.",
+      "source": "https://agri.telangana.gov.in/"
+    },
+    {
+      "title": "Soil Testing and Soil Health",
+      "aliases": [
+        "soil test",
+        "soil health card",
+        "మట్టి పరీక్ష",
+        "నేల పరీక్ష",
+        "मिट्टी जांच",
+        "மண் பரிசோதனை"
+      ],
+      "keywords": "soil testing fertilizer nutrients soil health card మట్టి పరీక్ష నేల పోషకాలు मिट्टी परीक्षण மண்",
+      "summary": "Soil testing helps farmers understand soil nutrients and make better fertiliser decisions.",
+      "details": "Farmers can contact a soil testing laboratory or agriculture department for sample collection instructions and test availability. Fertiliser recommendations should be based on the soil report and crop requirements.",
+      "source": "https://soilhealth.dac.gov.in/"
+    }
+  ],
+  "general": [
+    {
+      "title": "Official Government Services",
+      "aliases": [
+        "government services",
+        "government help",
+        "ప్రభుత్వ సేవలు",
+        "सरकारी सेवाएं",
+        "அரசு சேவைகள்"
+      ],
+      "keywords": "government citizen services online public services help",
+      "summary": "Citizens can access government services through official national and state portals.",
+      "details": "Use official government websites for applications, certificates, scheme information and service status. Avoid sharing OTPs, passwords or bank PINs with anyone.",
+      "source": "https://www.india.gov.in/"
+    }
+  ]
+}
