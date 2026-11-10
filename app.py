@@ -27,13 +27,13 @@ html, body, [class*="css"] {
 
 .stApp {
     background: #f5f7f6 !important;
-    color: var(--ink) !important;
+ color: var(--ink) !important;
 }
 
 .block-container {
     max-width: 1180px;
     padding: 1.4rem 1.5rem 3rem;
-}
+}  
 
 /* Main page text */
 [data-testid="stMain"] p,
