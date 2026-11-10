@@ -8,27 +8,260 @@ from services.language import LANGUAGES
 
 load_dotenv()
 st.set_page_config(page_title="Sahaaya AI | Citizen Services", page_icon="🇮🇳", layout="wide")
+
 CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
-:root{--ink:#1e2933;--muted:#667085;--line:#e6e9ec;--green:#28594b;}
-html,body,[class*="css"]{font-family:'DM Sans','Noto Sans Telugu','Noto Sans Devanagari','Noto Sans Tamil',sans-serif;color:var(--ink)}
-.stApp{background:#f5f7f6}.block-container{max-width:1180px;padding-top:1.4rem;padding-bottom:3rem}
-#MainMenu,footer{visibility:hidden}header[data-testid="stHeader"]{background:transparent}
-.brand{display:flex;align-items:center;gap:13px;border-bottom:1px solid var(--line);padding:4px 0 17px;margin-bottom:25px}
-.brand-icon{width:44px;height:44px;border-radius:12px;background:#28594b;color:white;display:grid;place-items:center;font-weight:800;font-size:20px}
-.brand-name{font-size:22px;font-weight:700;letter-spacing:-.5px}.brand-sub{font-size:12px;color:var(--muted);margin-top:2px}
-.eyebrow{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#557267;font-weight:700}
-.hero{font-size:32px;line-height:1.18;font-weight:700;letter-spacing:-1px;margin:7px 0;color:#1e2933}
-.hero-copy{max-width:760px;color:#667085;line-height:1.65;font-size:15px}
-.panel{background:white;border:1px solid var(--line);border-radius:15px;padding:19px 20px;margin:8px 0 14px}
-.panel-title{font-size:16px;font-weight:700;margin-bottom:5px}.panel-copy{font-size:13px;color:#667085;line-height:1.6}
-div[data-testid="stButton"] button{border-radius:9px;background:#28594b;border:1px solid #28594b;color:white;font-weight:600;min-height:42px}
-div[data-testid="stButton"] button:hover{background:#20483d;border-color:#20483d;color:white}
-div[data-testid="stTextInput"] input,div[data-testid="stTextArea"] textarea,div[data-testid="stSelectbox"] div[role="combobox"]{border-radius:9px}
-.answer{background:#f8faf9;border:1px solid #e1e9e5;border-left:4px solid #28594b;border-radius:10px;padding:17px 19px;line-height:1.75;white-space:pre-wrap}
-.small-note{font-size:11px;color:#667085;line-height:1.55}
-</style>"""
+
+:root {
+    --ink: #1e2933;
+    --muted: #667085;
+    --line: #e6e9ec;
+    --green: #28594b;
+}
+
+html, body, [class*="css"] {
+    font-family: 'DM Sans', 'Noto Sans Telugu',
+    'Noto Sans Devanagari', 'Noto Sans Tamil', sans-serif;
+    color: var(--ink);
+}
+
+.stApp {
+    background: #f5f7f6;
+    color: #1e2933;
+}
+
+.block-container {
+    max-width: 1180px;
+    padding-top: 1.4rem;
+    padding-bottom: 3rem;
+}
+
+/* Make normal text readable */
+.stMarkdown, .stMarkdown p, .stMarkdown li,
+.stMarkdown span, .stCaption, .stText,
+[data-testid="stMarkdownContainer"] {
+    color: #1e2933;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #22211e;
+}
+
+[data-testid="stSidebar"] * {
+    color: #ffffff;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] * {
+    color: #ffffff;
+}
+
+/* Brand */
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    border-bottom: 1px solid var(--line);
+    padding: 4px 0 17px;
+    margin-bottom: 25px;
+}
+
+.brand-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: #28594b;
+    color: white !important;
+    display: grid;
+    place-items: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e2933 !important;
+}
+
+.brand-sub {
+    font-size: 12px;
+    color: #667085 !important;
+    margin-top: 2px;
+}
+
+.eyebrow {
+    font-size: 11px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #557267 !important;
+    font-weight: 700;
+}
+
+.hero {
+    font-size: 32px;
+    line-height: 1.18;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 7px 0;
+    color: #1e2933 !important;
+}
+
+.hero-copy {
+    max-width: 760px;
+    color: #526071 !important;
+    line-height: 1.65;
+    font-size: 15px;
+}
+
+/* Cards */
+.panel {
+    background: #ffffff;
+    border: 1px solid #e6e9ec;
+    border-radius: 15px;
+    padding: 19px 20px;
+    margin: 8px 0 14px;
+}
+
+.panel-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #1e2933 !important;
+}
+
+.panel-copy {
+    font-size: 13px;
+    color: #526071 !important;
+    line-height: 1.6;
+}
+
+/* Buttons */
+div[data-testid="stButton"] button,
+div[data-testid="stFormSubmitButton"] button {
+    border-radius: 9px;
+    background: #28594b;
+    border: 1px solid #28594b;
+    color: #ffffff !important;
+    font-weight: 600;
+    min-height: 42px;
+}
+
+div[data-testid="stButton"] button *,
+div[data-testid="stFormSubmitButton"] button * {
+    color: #ffffff !important;
+}
+
+div[data-testid="stButton"] button:hover {
+    background: #20483d;
+    border-color: #20483d;
+}
+
+/* Inputs */
+div[data-testid="stTextInput"] input,
+div[data-testid="stTextArea"] textarea,
+div[data-testid="stSelectbox"] div[role="combobox"] {
+    border-radius: 9px;
+    color: #1e2933 !important;
+    background: #ffffff !important;
+}
+
+/* Answer area */
+.answer {
+    background: #ffffff;
+    color: #1e2933 !important;
+    border: 1px solid #e1e9e5;
+    border-left: 4px solid #28594b;
+    border-radius: 10px;
+    padding: 17px 19px;
+    line-height: 1.75;
+    white-space: pre-wrap;
+}
+
+.small-note {
+    font-size: 11px;
+    color: #667085 !important;
+    line-height: 1.55;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .block-container {
+        padding: 1rem 1rem 2rem !important;
+        max-width: 100% !important;
+    }
+
+    .hero {
+        font-size: 25px;
+        line-height: 1.3;
+        letter-spacing: -0.5px;
+    }
+
+    .hero-copy {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .brand {
+        gap: 10px;
+        margin-bottom: 18px;
+    }
+
+    .brand-icon {
+        width: 38px;
+        height: 38px;
+    }
+
+    .brand-name {
+        font-size: 19px;
+    }
+
+    .panel {
+        padding: 15px;
+        margin-bottom: 12px;
+    }
+
+    .panel-title {
+        font-size: 15px;
+    }
+
+    .panel-copy {
+        font-size: 13px;
+    }
+
+    /* Stack desktop columns vertically */
+    div[data-testid="stHorizontalBlock"] {
+        flex-wrap: wrap !important;
+        gap: 0.8rem !important;
+    }
+
+    div[data-testid="stHorizontalBlock"] > div {
+        min-width: 100% !important;
+        flex: 1 1 100% !important;
+    }
+
+    div[data-testid="stButton"] button {
+        width: 100%;
+    }
+
+    .answer {
+        padding: 14px;
+        font-size: 14px;
+    }
+}
+
+#MainMenu, footer {
+    visibility: hidden;
+}
+
+header[data-testid="stHeader"] {
+    background: transparent;
+}
+</style>
+"""
+st.markdown(CSS, unsafe_allow_html=True)
+
 st.markdown(CSS, unsafe_allow_html=True)
 init_db()
 for key, default in [("last_topic", ""), ("last_response", "")]:
