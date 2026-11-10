@@ -10,6 +10,7 @@ load_dotenv()
 st.set_page_config(page_title="Sahaaya AI | Citizen Services", page_icon="🇮🇳", layout="wide")
 
 
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
 
@@ -27,15 +28,14 @@ html, body, [class*="css"] {
 
 .stApp {
     background: #f5f7f6 !important;
- color: var(--ink) !important;
+    color: var(--ink) !important;
 }
 
 .block-container {
     max-width: 1180px;
     padding: 1.4rem 1.5rem 3rem;
-}  
+}
 
-/* Main page text */
 [data-testid="stMain"] p,
 [data-testid="stMain"] li,
 [data-testid="stMain"] label,
@@ -47,16 +47,11 @@ html, body, [class*="css"] {
     color: var(--ink);
 }
 
-/* Sidebar background */
-[data-testid="stSidebar"] {
-    background: #22211e !important;
-}
-
+[data-testid="stSidebar"],
 [data-testid="stSidebar"] > div:first-child {
     background: #22211e !important;
 }
 
-/* Sidebar headings and descriptions */
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
 [data-testid="stSidebar"] h3,
@@ -68,7 +63,6 @@ html, body, [class*="css"] {
     color: #ffffff !important;
 }
 
-/* Sidebar radio navigation */
 [data-testid="stSidebar"] [data-testid="stRadio"] label,
 [data-testid="stSidebar"] [data-testid="stRadio"] p,
 [data-testid="stSidebar"] [data-testid="stRadio"] span {
@@ -79,7 +73,6 @@ html, body, [class*="css"] {
     padding: 5px 2px;
 }
 
-/* Sidebar dropdown: dark text on white background */
 [data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] {
     background: #ffffff !important;
 }
@@ -94,7 +87,6 @@ html, body, [class*="css"] {
     fill: #1e2933 !important;
 }
 
-/* Sidebar status messages */
 [data-testid="stSidebar"] [data-testid="stAlert"] {
     color: #1e2933 !important;
 }
@@ -103,7 +95,6 @@ html, body, [class*="css"] {
     color: inherit;
 }
 
-/* Brand */
 .brand {
     display: flex;
     align-items: center;
@@ -162,7 +153,6 @@ html, body, [class*="css"] {
     font-size: 15px;
 }
 
-/* Cards */
 .panel {
     background: #ffffff;
     border: 1px solid #e6e9ec;
@@ -184,7 +174,6 @@ html, body, [class*="css"] {
     line-height: 1.6;
 }
 
-/* Buttons */
 div[data-testid="stButton"] button,
 div[data-testid="stFormSubmitButton"] button {
     border-radius: 9px;
@@ -206,7 +195,6 @@ div[data-testid="stFormSubmitButton"] button:hover {
     border-color: #20483d !important;
 }
 
-/* Inputs */
 div[data-testid="stTextInput"] input,
 div[data-testid="stTextArea"] textarea,
 div[data-testid="stSelectbox"] div[data-baseweb="select"] {
@@ -222,7 +210,6 @@ textarea::placeholder {
     -webkit-text-fill-color: #667085 !important;
 }
 
-/* Answer area */
 .answer {
     background: #ffffff;
     color: #1e2933 !important;
@@ -241,7 +228,6 @@ textarea::placeholder {
     line-height: 1.55;
 }
 
-/* Mobile layout */
 @media screen and (max-width: 768px) {
     .block-container {
         padding: 1rem 1rem 2rem !important;
@@ -286,7 +272,6 @@ textarea::placeholder {
         font-size: 13px;
     }
 
-    /* Stack main page columns */
     [data-testid="stMain"] [data-testid="stHorizontalBlock"] {
         flex-wrap: wrap !important;
         gap: 0.8rem !important;
@@ -321,6 +306,7 @@ header[data-testid="stHeader"] {
     background: transparent;
 }
 </style>
+
 st.markdown(CSS, unsafe_allow_html=True)
 init_db()
 for key, default in [("last_topic", ""), ("last_response", "")]:
