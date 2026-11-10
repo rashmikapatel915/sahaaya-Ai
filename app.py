@@ -9,13 +9,13 @@ from services.language import LANGUAGES
 load_dotenv()
 st.set_page_config(page_title="Sahaaya AI | Citizen Services", page_icon="🇮🇳", layout="wide")
 
-CSS = """
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+Tamil:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap');
 
 :root {
     --ink: #1e2933;
-    --muted: #667085;
+    --muted: #526071;
     --line: #e6e9ec;
     --green: #28594b;
 }
@@ -23,38 +23,84 @@ CSS = """
 html, body, [class*="css"] {
     font-family: 'DM Sans', 'Noto Sans Telugu',
     'Noto Sans Devanagari', 'Noto Sans Tamil', sans-serif;
-    color: var(--ink);
 }
 
 .stApp {
-    background: #f5f7f6;
-    color: #1e2933;
+    background: #f5f7f6 !important;
+    color: var(--ink) !important;
 }
 
 .block-container {
     max-width: 1180px;
-    padding-top: 1.4rem;
-    padding-bottom: 3rem;
+    padding: 1.4rem 1.5rem 3rem;
 }
 
-/* Make normal text readable */
-.stMarkdown, .stMarkdown p, .stMarkdown li,
-.stMarkdown span, .stCaption, .stText,
-[data-testid="stMarkdownContainer"] {
-    color: #1e2933;
+/* Main page text */
+[data-testid="stMain"] p,
+[data-testid="stMain"] li,
+[data-testid="stMain"] label,
+[data-testid="stMain"] [data-testid="stMarkdownContainer"],
+[data-testid="stMain"] h1,
+[data-testid="stMain"] h2,
+[data-testid="stMain"] h3,
+[data-testid="stMain"] h4 {
+    color: var(--ink);
 }
 
-/* Sidebar */
+/* Sidebar background */
 [data-testid="stSidebar"] {
-    background: #22211e;
+    background: #22211e !important;
 }
 
-[data-testid="stSidebar"] * {
-    color: #ffffff;
+[data-testid="stSidebar"] > div:first-child {
+    background: #22211e !important;
 }
 
-[data-testid="stSidebar"] [data-baseweb="select"] * {
-    color: #ffffff;
+/* Sidebar headings and descriptions */
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] .stMarkdown,
+[data-testid="stSidebar"] .stCaption,
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] {
+    color: #ffffff !important;
+}
+
+/* Sidebar radio navigation */
+[data-testid="stSidebar"] [data-testid="stRadio"] label,
+[data-testid="stSidebar"] [data-testid="stRadio"] p,
+[data-testid="stSidebar"] [data-testid="stRadio"] span {
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stRadio"] label {
+    padding: 5px 2px;
+}
+
+/* Sidebar dropdown: dark text on white background */
+[data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] {
+    background: #ffffff !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] div[data-baseweb="select"] *,
+[data-testid="stSidebar"] [data-testid="stSelectbox"] input {
+    color: #1e2933 !important;
+    -webkit-text-fill-color: #1e2933 !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stSelectbox"] svg {
+    fill: #1e2933 !important;
+}
+
+/* Sidebar status messages */
+[data-testid="stSidebar"] [data-testid="stAlert"] {
+    color: #1e2933 !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stAlert"] * {
+    color: inherit;
 }
 
 /* Brand */
@@ -70,9 +116,10 @@ html, body, [class*="css"] {
 .brand-icon {
     width: 44px;
     height: 44px;
+    flex-shrink: 0;
     border-radius: 12px;
     background: #28594b;
-    color: white !important;
+    color: #ffffff !important;
     display: grid;
     place-items: center;
     font-weight: 800;
@@ -141,8 +188,8 @@ html, body, [class*="css"] {
 div[data-testid="stButton"] button,
 div[data-testid="stFormSubmitButton"] button {
     border-radius: 9px;
-    background: #28594b;
-    border: 1px solid #28594b;
+    background: #28594b !important;
+    border: 1px solid #28594b !important;
     color: #ffffff !important;
     font-weight: 600;
     min-height: 42px;
@@ -153,18 +200,26 @@ div[data-testid="stFormSubmitButton"] button * {
     color: #ffffff !important;
 }
 
-div[data-testid="stButton"] button:hover {
-    background: #20483d;
-    border-color: #20483d;
+div[data-testid="stButton"] button:hover,
+div[data-testid="stFormSubmitButton"] button:hover {
+    background: #20483d !important;
+    border-color: #20483d !important;
 }
 
 /* Inputs */
 div[data-testid="stTextInput"] input,
 div[data-testid="stTextArea"] textarea,
-div[data-testid="stSelectbox"] div[role="combobox"] {
+div[data-testid="stSelectbox"] div[data-baseweb="select"] {
     border-radius: 9px;
     color: #1e2933 !important;
+    -webkit-text-fill-color: #1e2933 !important;
     background: #ffffff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #667085 !important;
+    -webkit-text-fill-color: #667085 !important;
 }
 
 /* Answer area */
@@ -177,6 +232,7 @@ div[data-testid="stSelectbox"] div[role="combobox"] {
     padding: 17px 19px;
     line-height: 1.75;
     white-space: pre-wrap;
+    overflow-wrap: anywhere;
 }
 
 .small-note {
@@ -185,7 +241,7 @@ div[data-testid="stSelectbox"] div[role="combobox"] {
     line-height: 1.55;
 }
 
-/* Mobile responsiveness */
+/* Mobile layout */
 @media screen and (max-width: 768px) {
     .block-container {
         padding: 1rem 1rem 2rem !important;
@@ -230,24 +286,30 @@ div[data-testid="stSelectbox"] div[role="combobox"] {
         font-size: 13px;
     }
 
-    /* Stack desktop columns vertically */
-    div[data-testid="stHorizontalBlock"] {
+    /* Stack main page columns */
+    [data-testid="stMain"] [data-testid="stHorizontalBlock"] {
         flex-wrap: wrap !important;
         gap: 0.8rem !important;
     }
 
-    div[data-testid="stHorizontalBlock"] > div {
+    [data-testid="stMain"] [data-testid="stHorizontalBlock"] > div {
         min-width: 100% !important;
         flex: 1 1 100% !important;
     }
 
-    div[data-testid="stButton"] button {
+    div[data-testid="stButton"] button,
+    div[data-testid="stFormSubmitButton"] button {
         width: 100%;
+        min-height: 46px;
     }
 
     .answer {
         padding: 14px;
         font-size: 14px;
+    }
+
+    [data-testid="stSidebar"] {
+        min-width: 0;
     }
 }
 
@@ -259,9 +321,6 @@ header[data-testid="stHeader"] {
     background: transparent;
 }
 </style>
-"""
-st.markdown(CSS, unsafe_allow_html=True)
-
 st.markdown(CSS, unsafe_allow_html=True)
 init_db()
 for key, default in [("last_topic", ""), ("last_response", "")]:
